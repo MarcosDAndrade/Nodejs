@@ -1,0 +1,27 @@
+<style>
+  body {
+    font-family: Arial, sans-serif;
+  }
+
+  h1 {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  button:hover {
+    background-color: #0069d9;
+  }
+
+  form {
+    margin-top: 30px;
+  }
+</style>
+
+<body align = "center">
+      <form action="/Calculatabuada" method="get">
+        <h1>Digite um número: </h1>    
+        <input type="text" id="num" name="num" value="">
+        <button>VER TABUADA</button> 
+      </form>
+    </body>
+  

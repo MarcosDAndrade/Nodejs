@@ -1,0 +1,11 @@
+<h1 align= "center" >MENU PRINCIPAL</h1>
+
+<div align = "center">
+<form action="/calculo" method="get">
+ <button type="submit">CALCULO</button> </form>
+
+ <form action="/tabuada" method="get">
+ <button type="submit">TABUADA</button> </form>
+ 
+</form>
+</div>

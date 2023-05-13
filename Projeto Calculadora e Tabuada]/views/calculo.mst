@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+      body {
+           background-color: lightblue;
+         }
+    </style>
+</head>
+<body align= "center">
+    <h1>Entrada de Dados</h1>
+    <p> Calculadora</p>
+    <form action="/calculoExecutar" method="get">
+       <p> <label>1 Número</label>
+           <input type="text" name="num1">  </p>
+       <p> <label>2 Número</label>
+           <input type="text" name="num2">  </p>
+       <p> <label for="cars">Selecione a operação:</label>
+            <select name="calc" id="calc">
+                <option value="+">Somar</option>
+                <option value="-">Subtrair</option>
+                <option value="*">Multiplicar</option>
+                <option value="/">Dividir</option>
+            </select>
+       <br><hr>
+       <input type="submit" value="Executar">
+       <hr>
+       <h2>{{dado1}}</h2>
+        <h2>{{num1}}</h2>
+         <h2>{{num2}}</h2>
+          <h2>{{op}}</h2>
+           <h2>{{resultado}}</h2>
+          
+       
+    </form>
+</body>
+</html>
